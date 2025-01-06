@@ -1,6 +1,7 @@
 import React from 'react'
 import { Copy } from "lucide-react";
 import toast from "react-hot-toast";
+import { toast } from 'react-hot-toast';
 import  { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams, useSearchParams } from 'react-router-dom'
