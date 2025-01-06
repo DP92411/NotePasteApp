@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { removeFromPastes } from '../redux/pasteSlice';
 import toast from 'react-hot-toast';
 import moment from 'moment';
+import { toast } from 'react-hot-toast'; 
 // import { Link } from "react-router-dom";
 
 const Paste = () => {
