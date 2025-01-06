@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom'
 import { addToPastes, updateToPastes } from '../redux/pasteSlice';
 import ReactDOM from 'react-dom';
+import { toast } from 'react-hot-toast';
 // import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 const Home = () => {
